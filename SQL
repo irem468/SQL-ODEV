@@ -1,1 +1,30 @@
+------SQL ÖDEV 1------
 
+select title, description from film; --1.soru--
+
+select * from film --2.soru--
+where film.length > 60 and film.length < 75;
+
+select * from film --3.soru--
+where rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.99;
+
+select * from customer --4.soru--
+where first_name = 'Mary';
+
+select * from film --5.soru--
+where film.length <= 50 and not ( rental_rate = 2.99 or rental_rate = 4.99);
+------SQL ÖDEV 1------
+
+select title, description from film; --1.soru--
+
+select * from film --2.soru--
+where film.length > 60 and film.length < 75;
+
+select * from film --3.soru--
+where rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.99;
+
+select * from customer --4.soru--
+where first_name = 'Mary';
+
+select * from film --5.soru--
+where film.length <= 50 and not ( rental_rate = 2.99 or rental_rate = 4.99);
